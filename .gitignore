@@ -1,0 +1,7 @@
+#django stuff:
+*.log
+settings.py
+db.sqlite3
+uwsgi.ini
+uwsgi.log
+
