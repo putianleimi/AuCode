@@ -1,5 +1,7 @@
 from .base import *
 
+import pymysql
+
 
 DEBUG = False
 ADMINS = (

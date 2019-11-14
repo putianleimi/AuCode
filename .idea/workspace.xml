@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6812c71-62ac-41b0-816e-c5f2af4ba95c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/querycode/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/querycode/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/querycode/templates/querycode/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/querycode/templates/querycode/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/querycode/templates/querycode/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/querycode/templates/querycode/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/querycode/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/querycode/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="a6812c71-62ac-41b0-816e-c5f2af4ba95c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,14 +40,14 @@
         <counts>
           <entry key="css" value="490" />
           <entry key="dummy" value="6" />
-          <entry key="html" value="2558" />
+          <entry key="html" value="2559" />
           <entry key="py" value="1406" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="490" />
-          <entry key="HTML" value="2558" />
+          <entry key="HTML" value="2559" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Python" value="1406" />
         </counts>
@@ -61,7 +56,7 @@
         <counts>
           <entry key="css" value="4" />
           <entry key="html" value="11" />
-          <entry key="py" value="34" />
+          <entry key="py" value="39" />
           <entry key="rnc" value="2" />
         </counts>
       </usages-collector>
@@ -69,7 +64,7 @@
         <counts>
           <entry key="CSS" value="4" />
           <entry key="HTML" value="11" />
-          <entry key="Python" value="34" />
+          <entry key="Python" value="39" />
           <entry key="RNG Compact" value="2" />
         </counts>
       </usages-collector>
@@ -77,15 +72,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/navbar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/querycode/urls.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/querycode/templates/querycode/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="4" column="72" lean-forward="true" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+            <state relative-caret-position="117">
+              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#!!top" />
                 <element signature="e#370#375#0" expanded="true" />
@@ -145,26 +131,60 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/querycode/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            <state relative-caret-position="103">
+              <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
+                <element signature="e#302#340#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/querycode/templates/querycode/index.html">
+        <entry file="file://$PROJECT_DIR$/ms/settings/pro.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#370#375#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="195">
+              <caret line="5" column="38" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="5" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ms/settings/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="21" column="65" lean-forward="true" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homepage/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="28" selection-start-column="28" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homepage/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homepage/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -172,29 +192,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/bootstrap/css/carousel.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
+            <state relative-caret-position="479">
               <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/sectional.rnc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ms/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-              <folding>
-                <element signature="e#626#658#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -204,15 +203,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="245">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/homepage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="3" selection-start-line="3" selection-end-line="7" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -257,8 +247,8 @@
         <option value="$PROJECT_DIR$/querycode/urls.py" />
         <option value="$PROJECT_DIR$/querycode/models.py" />
         <option value="$PROJECT_DIR$/querycode/templates/querycode/index.html" />
-        <option value="$PROJECT_DIR$/querycode/templates/querycode/detail.html" />
         <option value="$PROJECT_DIR$/querycode/views.py" />
+        <option value="$PROJECT_DIR$/querycode/templates/querycode/detail.html" />
       </list>
     </option>
   </component>
@@ -309,29 +299,6 @@
             <path>
               <item name="AuCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="AuCode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AuCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AuCode" type="462c0819:PsiDirectoryNode" />
-              <item name="querycode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AuCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AuCode" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AuCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AuCode" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AuCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AuCode" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -454,7 +421,7 @@
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15798046" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15798046" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -468,7 +435,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32842582" />
       <window_info anchor="bottom" id="File Transfer" order="9" weight="0.32952183" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" x="-59" y="303" width="1842" height="334" id="Terminal" order="11" visible="true" weight="0.5458664" />
+      <window_info anchor="bottom" x="-59" y="303" width="1842" height="334" id="Terminal" order="11" weight="0.5458664" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32842582" />
       <window_info anchor="bottom" id="Event Log" order="13" weight="0.3295583" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -550,39 +517,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homepage/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ms/settings/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/homepage/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms/settings/pro.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ms/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homepage/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ms/settings/dev.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -595,13 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="4" column="16323" selection-start-line="4" selection-start-column="16323" selection-end-line="4" selection-end-column="16323" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms/settings/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-429">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -671,13 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/bootstrap/css/carousel.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/querycode/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -697,8 +622,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/querycode/templates/querycode/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="4" column="72" lean-forward="true" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+        <state relative-caret-position="117">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
           <folding>
             <element signature="n#div#0;n#div#0;n#!!top" />
             <element signature="e#370#375#0" expanded="true" />
@@ -750,13 +675,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/bootstrap/css/carousel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/querycode/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        <state relative-caret-position="103">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
+            <element signature="e#302#340#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms/settings/pro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="5" column="38" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homepage/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homepage/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homepage/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms/settings/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="21" column="65" lean-forward="true" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
         </state>
       </provider>
     </entry>
