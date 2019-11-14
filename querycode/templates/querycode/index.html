@@ -1,10 +1,79 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-now you can see me ..the querycode index.html
-</body>
-</html>
+{% extends 'base.html' %}
+{% block page-css%}
+<!-- Custom styles for this template -->
+{% load static%}
+<link href="{% static 'bootstrap/css/carousel.css' %}" rel="stylesheet">
+{% endblock %}
+{% block content%}
+<div class="container">
+    <div class="intro">
+        <div class="row">
+          <div class="col text-center">
+            <span class="preheader">ANALYSIS &amp; GRADING</span>
+            <h1>Report Check</h1>
+            <p class="lead"></p><p>
+	<span class="suppress-on-mobile">GIA reports represent the highest standard of reliability, consistency and integrity. And now, GIA Report Check is available for all GIA reports, providing you with an additional level of assurance.</span> With Report Check, you can quickly and conveniently confirm that the information on your report matches what is archived in the GIA report database.</p>
+<p></p>
+          </div>
+        </div>
+      </div>
+<section class="report-check-landing">
+        <section class="report-check">
+          <form action="" class="report-lookup-form" role="form">
+              <div class="form-inline">
+                  <div class="form-group"><label for="name">Look Up A Report</label>
+                  <input type="text" class="form-control" id="name"></div>
+              <button type="submit" class="btn btn-default">submit</button>
+              </div>
+
+          </form>
+
+          <h3>report check features</h3>
+            <table class="table">
+                <tbody><tr></tr>
+                <tr>
+                    <td><strong>For reports dated on or after:</strong></td>
+                    <td><strong>January 1, 2000</strong></td>
+                    <td><strong>July 1, 2010</strong></td>
+                    <td><strong>January 1, 2014</strong></td>
+                    <td><strong>February 1, 2015</strong>
+                    </td></tr><tr><td>Report data</td>
+                    {% load static %}
+                    <td style="text-align: center;"><img src="{% static '/images/icon-green-check.png'%}"></td>
+                    <td style="text-align: center;"><span style="text-align: center;"><img src="{% static '/images/icon-green-check.png'%}"></span></td>
+                    <td style="text-align: center;"><img src="{% static '/images/icon-green-check.png'%}"></td>
+                    <td style="text-align: center;"><img src="{% static '/images/icon-green-check.png'%}"></td>
+                </tr>
+                <tr>
+                    <td>PDF facsimile of report</td>
+                    <td>&nbsp;</td>
+                    <td style="text-align: center;"><img src="{% static '/images/icon-green-check.png'%}"></td>
+                    <td style="text-align: center;"><img src="{% static '/images/icon-green-check.png'%}"></td>
+                    <td style="text-align: center;"><img src="{% static '/images/icon-green-check.png'%}"></td>
+                </tr>
+                <tr>
+                    <td>
+                        Image of item, plotted diagram, and/or<br>proportion diagram (where applicable)</td>
+                    <td>&nbsp;</td><td style="text-align: center;">&nbsp;</td>
+                    <td style="text-align: center;"><img src="{% static '/images/icon-green-check.png'%}"></td>
+                    <td style="text-align: center;"><img src="{% static '/images/icon-green-check.png'%}"></td>
+                </tr>
+                <tr>
+                    <td>Treatment Description Tab (where applicable)</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td style="text-align: center;"><img src="{% static '/images/icon-green-check.png'%}"></td>
+                </tr>
+                </tbody>
+            </table>
+                <p class="suppress-on-mobile">Need an easy way to regularly check multiple reports? You may qualify for Report Check Plus.<a href="http://www.gia.edu/gem-lab-report-check-plus"> Learn More</a></p></center><br>
+
+          <h3>important limitations</h3>
+
+          <p>GIA does not make any representations or warranties regarding the information returned by Report Check, which may not display all the information included on the original Report issued by GIA. All Report Check information is subject to these<a href="https://www.gia.edu/terms" class="">limitations.</a></p>
+        </section>
+      </section>
+</div>
+
+{% endblock %}

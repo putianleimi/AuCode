@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+
+
+{% block page-css%}
+<!-- Custom styles for this template -->
+{% load static%}
+<link href="{% static 'bootstrap/css/carousel.css' %}" rel="stylesheet">
+{% endblock %}
+
+
+{% block content%}
+   <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="{% static 'images/diamond.png'%}" alt="Generic placeholder image" width="140" height="140">
+          <h2>DIAMOND</h2>
+          <p>Diamonds are among nature’s most precious and beautiful creations.</p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="{% static 'images/fancy-color-diamond.png'%}" alt="Generic placeholder image" width="140" height="140">
+          <h2>FANCY COLOR DIAMOND</h2>
+          <p>Dazzling brilliance. Captivating color. These are the planet’s most valued gems.</p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="{% static 'images/Featured-Gems-CITRINE-151544-73x70.png'%}" alt="Generic placeholder image" width="140" height="140">
+          <h2>CITRINE</h2>
+          <p>Citrine is the transparent, pale yellow to brownish orange variety of quartz.</p>
+
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">LABORATORY-GROWN DIAMOND GRADING REPORT</h2>
+          <p class="lead">Full 4Cs assessment with general color and clarity descriptions. For loose, colorless to near-colorless laboratory-grown diamonds, 0.15 carats or more.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="{% static 'images/resources-for-retailers.jpg' %}" alt="LABORATORY-GROWN DIAMOND">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+
+
+    </div><!-- /.container -->
+{% endblock%}
+

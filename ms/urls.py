@@ -15,9 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-import querycode
+from . import view
+
 
 urlpatterns = [
+    path('', view.index),
     path('admin/', admin.site.urls),
-    path('querycode/', include(querycode.urls)),
+    path('querycode/', include('querycode.urls')),
 ]

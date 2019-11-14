@@ -1,0 +1,774 @@
+{% extends 'base.html' %}
+{% block page-css%}
+<!-- Custom styles for this template -->
+{% load static%}
+<link href="{% static 'bootstrap/css/carousel.css' %}" rel="stylesheet">
+{% endblock %}
+{% block content%}
+<div class="container">
+    <div class="intro">
+        <div class="row">
+          <div class="col text-center">
+            <span class="preheader">ANALYSIS &amp; GRADING</span>
+            <h1>Report Check</h1>
+            <p class="lead"></p><p>
+	<span class="suppress-on-mobile">GIA reports represent the highest standard of reliability, consistency and integrity. And now, GIA Report Check is available for all GIA reports, providing you with an additional level of assurance.</span> With Report Check, you can quickly and conveniently confirm that the information on your report matches what is archived in the GIA report database.</p>
+<p></p>
+          </div>
+        </div>
+      </div>
+<div id="report-check-container" class="report-check" style="opacity: 1;">
+    <!-- Report Header Information -->
+    <section class="report-header-container sticky-top">
+    <!-- <section class='report-header-container sticky-nav-container'> -->
+      <div class="sticky-nav-container-inner">
+        <div class="content row">
+          <!-- High level information (Date and Number) -->
+          <div class="high-level-report-information col-md-8 col-sm-12">
+            <ul class="row">
+              <li class="col-6 first">
+                <h3 id="REPORT_NO_TITLE">gia report number</h3>
+                <p class="dynamic" id="REPORT_NO">7336917833</p>
+              </li>
+              <li id="logoForPrint" style="display:none;">
+                <img src="/img/print/gia-logo-print.gif">
+                <div class="report-check-title">Report Check Page</div>
+              </li>
+              <li class="col-6 last">
+                <h3 id="REPORT_DATE_TITLE">date of issue</h3>
+                <p class="dynamic" id="REPORT_DT">Oct. 17, 2019</p>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Download PDF -->
+          <div class="d-none download-pdf-container col-md-4 col-sm-12 show" id="IS_PDF_AVAILABLE">
+            <a id="downloadPDF" href="https://www.gia.edu/otmm_wcs_int/proxy-pdf/?ReportNumber=7336917833&amp;url=https://myapps.gia.edu/RptChkClient/reportClient.do?ReportNumber=5640C8F1A5EE57DCA76ADE886BEBF1BE" class="button-action" target="_blank"><span class="label">Download PDF</span></a>
+            <p>
+              <a id="acrobat" href="http://get.adobe.com/reader">Get Acrobat Reader</a>
+            </p>
+          </div>
+
+          <!-- Block Chain  -->
+          <div class="d-none blockchain-container col-md-4 col-sm-12 hidden" id="BLOCK_CHAIN_RPT">
+            <img src="/img/block-chain-en_US.png">
+            <p class="card-text"><a target="_blank" href="https://www.gia.edu/blockchain-diamond-grading-report">What Is This?</a></p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- Title -->
+    <section class="row">
+      <div class="content row col-md-9">
+        <div class="reporttype col-md-8">
+          <h1 id="title">Diamond Dossier</h1>
+        <div id="naturaldiamond">For Natural Diamond</div><div class="reportchecksleeve"><p></p></div><div class="reportchecksleeve"><p></p></div></div>
+        <div class="s_image col-md-4">
+          <a href="" target="_blank">
+            <img id="IMAGE1" src="">
+            <div class="title-magnify sprites-icon-magnify"></div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Report and Aside -->
+
+    <section class="report-details-and-sidebar row justify-content-md-center">
+      <div class="content row">
+        <div id="report-faq-container" class="col-md-9">
+          <div id="report-details-container"><meta content="max-age=0" http-equiv="cache-control">
+<meta content="no-cache" http-equiv="cache-control">
+<meta content="0" http-equiv="expires">
+<meta content="Wed, 10 Oct 1984 1:00:00 GMT" http-equiv="expires">
+<meta content="no-cache" http-equiv="pragma">
+<h3 class="title dynamic" id="SHAPE">Round Brilliant</h3>
+<table class="table table-striped">
+	<tbody>
+		<tr>
+			<td>
+				<div style="position: relative;">
+					<span id="DIAMOND_MEASUREMENTS_TITLE">
+
+
+
+<div>
+  Measurements
+</div>
+
+</span>
+					<div class="tooltip" id="DIAMOND_MEASUREMENTS_TOOLTIP">
+
+
+<div>
+  <span></span>
+<p>Diamond dimensions listed as “minimum diameter – maximum diameter x depth” for round diamonds and “length x width x depth” for fancy-shaped diamonds.</p>
+
+</div>
+
+</div>
+				</div>
+			</td>
+			<td>
+				<strong class="dynamic" id="LENGTH">4.21 - 4.26 x 2.65 mm</strong></td>
+		</tr>
+		<tr>
+			<td>
+				<div style="position: relative;">
+					<span id="DIAMOND_CARAT_WEIGHT_TITLE">
+
+
+
+<div>
+  Carat Weight
+</div>
+
+</span>
+					<div class="tooltip" id="DIAMOND_CARAT_WEIGHT_TOOLTIP">
+
+
+
+<div>
+  <span></span>
+<p>
+	Weight given in carats, recorded to the nearest hundredth of a carat. One carat is equal to 1/5 of a gram.</p>
+
+</div>
+
+</div>
+				</div>
+			</td>
+			<td>
+				<strong class="dynamic" id="WEIGHT">0.30 carat</strong></td>
+		</tr>
+		<tr>
+			<td>
+				<div style="position: relative;">
+					<span id="DIAMOND_COLOR_GRADE_TITLE">
+
+
+
+<div>
+  <span></span>
+<div>
+	Color Grade</div>
+
+</div>
+
+</span>
+					<div class="tooltip" id="DIAMOND_COLOR_GRADE_TOOLTIP">
+
+
+
+<div>
+  <span></span>
+<p>
+	The absence of color ranging from colorless to light yellow or brown when compared to GIA Master Color Comparison Diamonds.</p>
+
+</div>
+
+</div>
+				</div>
+			</td>
+			<td>
+				<strong class="dynamic" id="COLOR">K, Faint Brown</strong></td>
+		</tr>
+		<tr>
+			<td>
+				<div style="position: relative;">
+					<span id="DIAMOND_CLARITY_GRADE_TITLE">
+
+
+
+<div>
+  <span></span>
+<div>
+	Clarity Grade</div>
+
+</div>
+
+</span>
+					<div class="tooltip" id="DIAMOND_CLARITY_GRADE_TOOLTIP">
+
+
+
+<div>
+  <span></span>
+<p>
+	The relative absence of inclusions and blemishes. Graded on a scale from Flawless to Included based on size, nature, number, position, and relief of characteristics visible under 10x magnification.</p>
+
+</div>
+
+</div>
+				</div>
+			</td>
+			<td>
+				<strong class="dynamic" id="CLARITY">SI1</strong></td>
+		</tr>
+		<tr>
+			<td>
+				<div style="position: relative;">
+					<span id="DIAMOND_CUT_GRADE_TITLE">
+
+
+<div>
+  <span></span>
+<div>
+	Cut Grade</div>
+
+</div>
+
+</span>
+					<div class="tooltip" id="DIAMOND_CUT_GRADE_TOOLTIP">
+
+
+
+<div>
+  <span></span>
+<p>
+	For standard, D-to-Z color, round brilliant diamonds. Cut grade incorporates the aspects of face-up appearance, design, and craftsmanship.</p>
+
+</div>
+
+</div>
+				</div>
+			</td>
+			<td>
+				<strong class="dynamic" id="FINAL_CUT">Very Good</strong></td>
+		</tr>
+	</tbody>
+</table>
+<h3 class="title" id="DIAMOND_PROPORTIONS">
+	proportions</h3>
+<table class="table table-striped">
+	<tbody>
+		<tr>
+			<td>
+				<div style="position: relative;">
+					<span id="DIAMOND_DEPTH_TITLE">
+
+
+
+<div>
+  <span></span>
+<div>
+	<div>
+		Depth</div>
+</div>
+
+</div>
+
+</span>
+					<div class="tooltip" id="DIAMOND_DEPTH_TOOLTIP">
+
+
+
+<div>
+  <span></span>
+<p>
+	Table-to-culet depth, expressed as a percentage of average girdle diameter for round shapes or width for fancy shapes.</p>
+
+</div>
+
+</div>
+				</div>
+			</td>
+			<td>
+				<strong class="dynamic" id="DEPTH_PCT">62.6</strong> <strong class="report-align-left">%</strong></td>
+		</tr>
+		<tr>
+			<td>
+				<div style="position: relative;">
+					<span id="DIAMOND_TABLE_TITLE">
+
+
+
+<div>
+  <span></span>Table
+</div>
+
+</span>
+					<div class="tooltip" id="DIAMOND_TABLE_TOOLTIP">
+
+
+
+<div>
+  <span></span>
+<p>
+	Table size expressed as a percentage of a round brilliant’s average girdle diameter for round shapes or width for fancy shapes.</p>
+
+</div>
+
+</div>
+				</div>
+			</td>
+			<td>
+				<strong class="dynamic" id="TABLE_PCT">57</strong> <strong class="report-align-left">%</strong></td>
+		</tr>
+		<tr>
+			<td>
+				<div style="position: relative;">
+					<span id="DIAMOND_CROWN_ANGLE_TITLE">
+
+
+<div>
+  Crown Angle<span></span>
+</div>
+
+</span>
+					<div class="tooltip" id="DIAMOND_CROWN_ANGLE_TOOLTIP">
+
+
+
+<div>
+  <span></span>
+<p>
+	The average of the angles of the bezel facet planes relative to the table planes.</p>
+
+</div>
+
+</div>
+				</div>
+			</td>
+			<td>
+				<strong class="dynamic" id="CRN_AG">36.5°</strong></td>
+		</tr>
+		<tr>
+			<td>
+				<div style="position: relative;">
+					<span id="DIAMOND_CROWN_HEIGHT_TITLE">
+
+
+
+<div>
+  Crown Height
+</div>
+
+</span>
+					<div class="tooltip" id="DIAMOND_CROWN_HEIGHT_TOOLTIP">
+
+
+<div>
+  <span></span>
+<p>
+	Measurement from the table plane to the intersection of the bezel facet with the girdle. The Crown Height % is the average crown height relative to the average diameter for round shapes and width for fancy shapes.</p>
+
+</div>
+
+</div>
+				</div>
+			</td>
+			<td>
+				<strong class="dynamic" id="CRN_HT">16.0%</strong></td>
+		</tr>
+		<tr>
+			<td>
+				<div style="position: relative;">
+					<span id="DIAMOND_PAVILION_ANGLE_TITLE">
+
+
+
+<div>
+  Pavilion Angle
+</div>
+
+</span>
+					<div class="tooltip" id="DIAMOND_PAVILION_ANGLE_TOOLTIP">
+
+
+
+<div>
+  <span></span>
+<p>
+	Average of the angles formed by the pavilion main facet planes and the girdle plane.</p>
+
+</div>
+
+</div>
+				</div>
+			</td>
+			<td>
+				<strong class="dynamic" id="PAV_AG">39.8°</strong></td>
+		</tr>
+		<tr>
+			<td>
+				<div style="position: relative;">
+					<span id="DIAMOND_PAVILION_DEPTH_TITLE">
+
+
+
+<div>
+  Pavilion Depth
+</div>
+
+</span>
+					<div class="tooltip" id="DIAMOND_PAVILION_DEPTH_TOOLTIP">
+
+
+
+<div>
+  <span></span>
+<p>
+	Measured from the girdle to the culet, then expressed as a percentage of average girdle diameter for round shapes or width for fancy shapes.</p>
+
+</div>
+
+</div>
+				</div>
+			</td>
+			<td>
+				<strong class="dynamic" id="PAV_DP">41.5%</strong></td>
+		</tr>
+		<tr>
+			<td>
+				<div style="position: relative;">
+					<span id="DIAMOND_STAR_LENGTH_TITLE">
+
+
+<div>
+  Star Length
+</div>
+
+</span>
+					<div class="tooltip" id="DIAMOND_STAR_LENGTH_TOOLTIP">
+
+
+
+<div>
+  <span></span>
+<p>
+	Length of star facets expressed as a percentage of the total distance between the girdle and the edge of the table facet.</p>
+
+</div>
+
+</div>
+				</div>
+			</td>
+			<td>
+				<strong class="dynamic" id="STR_LN">45%</strong></td>
+		</tr>
+		<tr>
+			<td>
+				<div style="position: relative;">
+					<span id="DIAMOND_LOWER_HALF_TITLE">
+
+
+
+<div>
+  Lower Half
+</div>
+
+</span>
+					<div class="tooltip" id="DIAMOND_LOWER_HALF_TOOLTIP">
+
+
+
+<div>
+  <span></span>
+<p>
+	Length of lower-half facets expressed as a percentage of the total distance between the girdle and the culet.</p>
+
+</div>
+
+</div>
+				</div>
+			</td>
+			<td>
+				<strong class="dynamic" id="LR_HALF">75%</strong></td>
+		</tr>
+		<tr>
+			<td>
+				<div style="position: relative;">
+					<span id="DIAMOND_GIRDLE_TITLE">
+
+
+
+<div>
+  Girdle
+</div>
+
+</span>
+					<div class="tooltip" id="DIAMOND_GIRDLE_TOOLTIP">
+
+
+<div>
+  <span></span>
+<p>
+	Thickness of the intersection of the crown and pavilion which defines the perimeter of the diamond.</p>
+
+</div>
+
+</div>
+				</div>
+			</td>
+			<td>
+				<strong class="dynamic" id="GIRDLE">Slightly Thick to Thick, Faceted, 5.5%</strong></td>
+		</tr>
+		<tr>
+			<td>
+				<div style="position: relative;">
+					<span id="DIAMOND_CULET_TITLE">
+
+
+
+<div>
+  Culet
+</div>
+
+</span>
+					<div class="tooltip" id="DIAMOND_CULET_TOOLTIP">
+
+
+
+<div>
+  <span></span>
+<p>
+	Size of the facet at the tip of a gemstone relative to the average diameter for round shapes or width for fancy shapes.</p>
+
+</div>
+
+</div>
+				</div>
+			</td>
+			<td>
+				<strong class="dynamic" id="CULET_SIZE">None</strong></td>
+		</tr>
+		<tr class="makeItWhite">
+			<td style="background-color: rgb(255, 255, 255);">
+				&nbsp;</td>
+			<td style="background-color: rgb(255, 255, 255);">
+				<span class="proportion" id="ex1" style=""><a href="https://www.gia.edu/otmm_wcs_int/printimages.jsp?IMG_TYPE=PROPIMG&amp;IMG_NO1=5640C8F1A5EE57DCA76ADE886BEBF1BE" target="_blank"><img src="https://www.gia.edu/otmm_wcs_int/printimages.jsp?IMG_TYPE=PROPIMG&amp;IMG_NO1=5640C8F1A5EE57DCA76ADE886BEBF1BE"><div class="report-magnify sprites-icon-magnify"></div></a></span></td>
+		</tr>
+	</tbody>
+</table>
+<h3 class="title" id="DIAMOND_FINISH">
+	finish</h3>
+<table class="table table-striped">
+	<tbody>
+		<tr>
+			<td>
+				<div style="position: relative;">
+					<span id="DIAMOND_POLISH_TITLE">
+
+
+
+<div>
+  <span></span>Polish
+</div>
+
+</span>
+					<div class="tooltip" id="DIAMOND_POLISH_TOOLTIP">
+
+
+
+<div>
+  <span></span>
+<p>
+	Smoothness of the diamond’s surface, assessed on a scale ranging from excellent to poor.</p>
+
+</div>
+
+</div>
+				</div>
+			</td>
+			<td>
+				<strong class="dynamic" id="POLISH">Very Good</strong></td>
+		</tr>
+		<tr>
+			<td>
+				<div style="position: relative;">
+					<span id="DIAMOND_SYMMETRY_TITLE">
+
+
+<div>
+  Symmetry
+</div>
+
+</span>
+					<div class="tooltip" id="DIAMOND_SYMMETRY_TOOLTIP">
+
+
+
+<div>
+  <span></span>
+<p>
+	Exactness of the diamond’s outline, and the shape, placement, and alignment of its facets, assessed on a scale ranging from excellent to poor.</p>
+
+</div>
+
+</div>
+				</div>
+			</td>
+			<td>
+				<strong class="dynamic" id="SYMMETRY">Very Good</strong></td>
+		</tr>
+	</tbody>
+</table>
+<h3 class="title" id="DIAMOND_FLUORESCENCE">
+	Fluorescence</h3>
+<table class="table table-striped">
+	<tbody>
+		<tr>
+			<td>
+				<div style="position: relative;">
+					<span id="DIAMOND_FLUORESCENCE_TITLE">
+
+
+<div>
+  Fluorescence
+</div>
+
+</span>
+					<div class="tooltip" id="DIAMOND_FLUORESCENCE_TOOLTIP">
+
+
+
+<div>
+  <span></span>
+<p>
+	Strength and color of the diamond when viewed under long-wave ultraviolet light. A fluorescence description of “none” represents a range of fluorescence from indiscernible to very faint. Used for identification purposes.</p>
+
+</div>
+
+</div>
+				</div>
+			</td>
+			<td>
+				<strong class="dynamic" id="FLUORESCENCE_INTENSITY">Strong Blue</strong></td>
+		</tr>
+	</tbody>
+</table>
+<h3 class="title" id="DIAMOND_CLARITY_CHARACTERISTICS">
+	clarity characteristics</h3>
+<table class="table table-striped">
+	<tbody>
+		<tr id="CLARITY_CHARACTERISTICS">
+			<td>
+				<div style="position: relative;">
+					<span id="DIAMOND_CLARITY_CHARACTERISTICS_TITLE">
+
+
+
+<div>
+  Clarity Characteristics
+</div>
+
+</span>
+					<div class="tooltip" id="DIAMOND_CLARITY_CHARACTERISTICS_TOOLTIP">
+
+
+
+<div>
+  <span></span>
+<p>
+	List of the most significant clarity characteristics present in the diamond that justifies the clarity grade; a maximum of four characteristics are listed.</p>
+
+</div>
+
+</div>
+				</div>
+			</td>
+			<td>
+				<strong class="dynamic" id="KEY_TO_SYMBOLS">Feather, Crystal</strong></td>
+		</tr>
+		<tr class="makeItWhite">
+			<td class="td-KTS" style="background-color: rgb(255, 255, 255);">
+				<div id="KTS" style="display:none">
+					<span id="DIAMOND_KTS">Key to symbols</span>
+					<div id="KTS_DETAIL" style="">
+						&nbsp;</div>
+				</div>
+			</td>
+			<td style="background-color: rgb(255, 255, 255);">
+				<span class="proportion" id="ex2" style="display:none"> </span></td>
+		</tr>
+	</tbody>
+</table>
+
+
+<h3 class="title" id="DIAMOND_INSCRIPTIONS">
+	inscription(s)</h3>
+<p class="description-text dynamic" id="INSCRIPTION">GIA 7336917833</p>
+
+<p class="description-text dynamic" id="CONTROL_NUMBER" style="display:none">1228CBF124100C7F58914F73917DF521</p>
+<p class="description-text dynamic" id="REPORT_DT" style="display:none">10/17/2019</p>
+
+<p class="description-text dynamic" id="REPORT_NO" style="display:none">7336917833</p>	</div>
+          <div class="faq-section">
+
+
+          </div>
+        </div>
+
+
+        <!-- Download PDF for mobile -->
+        <div class="d-none download-pdf-container visible-sm show" id="IS_PDF_AVAILABLE_MOBILE">
+          <a id="downloadPDF-Mobile" href="https://www.gia.edu/otmm_wcs_int/proxy-pdf/?ReportNumber=7336917833&amp;url=https://myapps.gia.edu/RptChkClient/reportClient.do?ReportNumber=5640C8F1A5EE57DCA76ADE886BEBF1BE" target="_blank">
+            <span class="label">Download PDF</span>
+          </a>
+        </div>
+
+        <!-- Block Chain on Mobile -->
+        <div class="d-none blockchain-container col-md-4 col-sm-12 visible-sm hidden" id="BLOCK_CHAIN_RPT_MOBILE">
+            <img src="/img/block-chain-en_US.png">
+            <p class="card-text"><a target="_blank" href="https://www.gia.edu/blockchain-diamond-grading-report">What Is This?</a></p>
+        </div>
+
+        <!-- Email to a friend for mobile -->
+        <div class="email-to-friend-container" id="EMAIL_TO_FRIEND_MOBILE">
+          <div id="emailSubject" style="display:none;">GIA.edu: View GIA Report :</div>
+          <div id="emailBody" style="display:none;">Take a look at this GIA report via Report Check: :</div>
+          <a id="emailToFriend-Mobile" href="#"><span class="label">Email Report</span></a>
+        </div>
+
+        <aside class="card col-md-3 col-lg-3 border-left-dotted mb3">
+          <div>
+            <h3 class="card-title title header-support">important limitations</h3>
+            <p class="card-text">GIA does not make any representations or warranties regarding the information returned by Report Check, which may not display all the information included on the original Report issued by GIA. All Report Check information is subject to these <a href="https://www.gia.edu/terms">limitations.</a></p>
+          </div>
+		  <div class="report-check-survey"><p>How can we improve Report Check?  <a href="https://www.giasurveys.com/se/705E3F7C7D829FD9" target="_blank">Take this quick survey</a>.</p></div>
+          <div class="another-report">
+            <h3 class="card-title title header-support noprint">verify another report</h3>
+            <div class="header-container">
+              <form action="/sites/Satellite" class="search-box report-lookup-form" method="GET">
+                <input class="icon-search form-control" name="reportno" placeholder="Enter Report No." type="tel">
+                <input type="submit" name="" id="" class="button-submit " value="Go">
+                <input type="hidden" name="c" value="Page">
+                <input type="hidden" name="childpagename" value="GIA/Page/ReportCheck">
+                <input type="hidden" name="pagename" value="GIA/Wrapper">
+                <input type="hidden" name="cid" value="1495275503754">
+              </form>
+            </div>
+          </div>
+          <div id="viewrr">
+
+
+
+<div class="card text-center border-0">
+    <div class="card-body">
+      <h4 class="card-title">Learn More About Diamond</h4>
+
+        <img class="card-avatar" alt="why we love diamond" src="https://www.gia.edu/images/why-we-love-diamond.png">
+
+      <p class="card-text"></p><div class="caption">
+	Explore diamond history, research, quality factors, and more in the GIA Gem Encyclopedia.<br>
+	&nbsp;</div>
+<p></p>
+
+
+
+
+            <a href="https://www.gia.edu/diamond">Read More</a>
+
+
+
+    </div>
+</div>
+</div>
+        </aside>
+      </div>
+    </section>
+  </div>
+</div>
+
+{% endblock %}
