@@ -27,8 +27,11 @@
           <div class="high-level-report-information col-md-8 col-sm-12">
             <ul class="row">
               <li class="col-6 first">
+                  {% if error_msg %}
+                      <strong>{{ error_msg }}</strong>
+                  {% endif %}
                 <h3 id="REPORT_NO_TITLE">gia report number</h3>
-                <p class="dynamic" id="REPORT_NO">7336917833</p>
+                <p class="dynamic" id="REPORT_NO">{{ aucode }}</p>
               </li>
               <li id="logoForPrint" style="display:none;">
                 <img src="/img/print/gia-logo-print.gif">

@@ -19,10 +19,14 @@
       </div>
 <section class="report-check-landing">
         <section class="report-check">
-          <form action="" class="report-lookup-form" role="form">
+          <form action="{% url 'qc:detail'%}" method="get" class="report-lookup-form" role="form">
+              {% csrf_token %}
               <div class="form-inline">
-                  <div class="form-group"><label for="name">Look Up A Report</label>
-                  <input type="text" class="form-control" id="name"></div>
+                  <div class="form-group">
+
+                      <label for="name">Look Up A Report</label>
+                      <input type="text" class="form-control" id="name" placeholder="Enter Report Number" required>
+                  </div>
               <button type="submit" class="btn btn-default">submit</button>
               </div>
 
