@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a6812c71-62ac-41b0-816e-c5f2af4ba95c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/querycode/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/querycode/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +45,7 @@
         <counts>
           <entry key="css" value="490" />
           <entry key="dummy" value="6" />
-          <entry key="gitignore" value="22" />
+          <entry key="gitignore" value="41" />
           <entry key="html" value="2559" />
           <entry key="py" value="1427" />
         </counts>
@@ -57,7 +54,7 @@
         <counts>
           <entry key="CSS" value="490" />
           <entry key="HTML" value="2559" />
-          <entry key="PLAIN_TEXT" value="28" />
+          <entry key="PLAIN_TEXT" value="47" />
           <entry key="Python" value="1427" />
         </counts>
       </usages-collector>
@@ -86,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="56" column="6" lean-forward="true" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
+            <state relative-caret-position="78">
+              <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -392,7 +389,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17100978" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -658,8 +654,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="56" column="6" lean-forward="true" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
+        <state relative-caret-position="78">
+          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
         </state>
       </provider>
     </entry>
