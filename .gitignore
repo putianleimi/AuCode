@@ -53,6 +53,8 @@ coverage.xml
 
 #django stuff:
 *.log
+dev.py
+pro.py
 settings.py
 db.sqlite3
 uwsgi.ini
